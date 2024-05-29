@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="#">
+        <table>
+            <tr>
+                <td colspan="2" class="tableHeader">
+                  <h4>Pizza Shop 2.0</h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Name
+                </td>
+                <td>
+                    <input type="text" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pizza Topping
+                </td>
+                <td>
+                        <input type="radio" name="toppind"> Supreme <br>
+                        <input type="radio" name="toppind"> Vegeterian <br>
+                        <input type="radio" name="toppind"> Hawaiian
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pizza Sause
+                </td>
+                <td>
+                    <select name="SauseSelect" id="">
+                        <option value="Salsa"> Salsa </option>
+                        <option value="Pesto"> Pesto </option>
+                        <option value="Tomato"> Tomato </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Optional Extras</td>
+                <td>
+                    <input type="checkbox"> Extra Cheese
+                    <input type="checkbox"> Gluten Free Base
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <Label>Delivery Intsructions</Label> <br>
+                    <textarea name="" id="" cols="30" rows="4"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
